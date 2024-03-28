@@ -1,0 +1,144 @@
+/* Global styles */
+/*Set box- sizing, margin and padding to 0 for all the elements*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /* Set font family and backgorung color for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  /* Maximum width, margin and padding for the container element is set */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  /* Background color, padding, border radius, box shadow, margin for the card element is set */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+  }
+  /* Set the font size, font weight, margin bottom, color for the name element is set */
+  .name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  /* Weather information styles */
+  .temp {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .wind, .humid, .clouds, .desc {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 18px;
+  }
+  
+  /* Input styles */
+  .input {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .input_text {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit:hover {
+    background-color: #444;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 600px) {
+    .input {
+      flex-direction: column;
+    }
+  
+    .input_text {
+      margin-bottom: 10px;
+    }
+  }
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  /* Media queries for smaller devices */
+  @media screen and (max-width: 400px) {
+    .name {
+        font-size: 24px;
+    }
+
+    .temp {
+        font-size: 14px;
+    }
+
+    .wind, .humid, .clouds, .desc {
+        font-size: 12px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+}

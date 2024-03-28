@@ -1,0 +1,57 @@
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.header {
+  text-align: center;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.input_text {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 18px;
+}
+.submit {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.card {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
